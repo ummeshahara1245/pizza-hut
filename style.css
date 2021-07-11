@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+background-image: url('images/bg.jpg');
+}
+.topnav {
+    overflow: hidden;
+    background-color:#20252b;
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+  
+  .topnav a {
+    color: chocolate;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: flex;
+   align-items: center; 
+   font-weight: bold;
+   margin-right:15px ;
+   font-family: 'Cookie', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Parisienne', cursive;
+justify-content: space-between;
+ }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  .logo{
+      margin-top: 25px;
+      color: chocolate;
+      font-size: 2em;
+      font-weight: bold;
+      cursor: pointer;
+      margin-right: 10%;
+      font-family: 'Cookie', cursive;
+      font-family: 'Marck Script', cursive;
+      font-family: 'Parisienne', cursive;
+      /* margin-right: 60%; */
+
+  }
+
+  .fullstop{
+      font-weight: bold;
+      font-size: 50px;
+      align-items: center;
+      color: white;
+      margin-bottom: 25px;
+  }
+.banner{
+    display: flex;
+    padding: 3%;
+}
+.half-width img{
+    width: 100%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+#content h1{
+    font-size: 3em;
+    color:chocolate;
+    font-family: 'Cookie', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Parisienne', cursive;
+}
+#content{
+    margin-left: 30%;
+}
+#content p{
+    margin-top: 0;
+    font-size: 2em;
+    color: white;
+}
+button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: chocolate;
+    cursor: pointer;
+    color: white;
+    font-family: 'Cookie', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Parisienne', cursive;
+}
+.pizza-name{
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: center;
+    margin-top: 5%;
+}
+.pizza-name img{
+    height: 300px;
+    width: 300px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 50%;
+}
+.pizza-name h1{
+text-align: center;
+color: chocolate;
+font-weight: 900;
+font-family: 'Cookie', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Parisienne', cursive;
+font-size: 2em;
+}
+.pizza-name-content{
+text-align: center;
+}
+.pizza-name-content p{
+color: white;
+font-weight: bold;
+}
+.pizza-name-content h1{
+    font-size: 2em;
+    font-family: 'Cookie', cursive;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Parisienne', cursive;
+}
+span{
+    color: chocolate;
+}
+.pizza-bitola{
+    text-align: center;
+    margin-top: 10%;
+}
+.pizza-bitola p{
+    color: white;
+}
+.pizza-bitola h1{
+    color: chocolate;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Cookie', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Parisienne', cursive;
+}
+hr{
+    margin-top: 7%;
+    width: 70%;
+    background-color: chocolate;
+    margin-bottom: 3%;
+}
+.our-services{
+    display: flex;
+    margin-top: 10%;
+}
+.our-services p{
+text-align: center;
+color: white;
+}
+.our-services h1{
+    text-align: center;
+    color: chocolate;
+    font-family: 'Cookie', cursive;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Parisienne', cursive;
+}
+.fas{
+margin-left: 45%;
+font-size: 50px;
+color: chocolate;
+}
+form { 
+    max-width:420px;  
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.feedback-input {
+  color:chocolate;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid chocolate;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+  font-family: 'Cookie', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Parisienne', cursive;
+}
+
+.feedback-input:focus { border:2px solid chocolate; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background:chocolate;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+ 
+}
+[type="submit"]:hover { background:chocolate; }
+.contact-form{
+    display: flex;
+    justify-content: center;
+    margin-top:5%;
+    margin-bottom: 7%;
+}
+.contact-form img{
+    margin-top:15% ;
+    margin-right: 10%;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin: 3% 3% 3% 3%;
+}
+.fab{
+    color: chocolate;
+    font-size: 4em;
+    padding: 20px 20px 20px 20px;
+}
+footer{
+color: chocolate;
+text-align: center;
+}
+
